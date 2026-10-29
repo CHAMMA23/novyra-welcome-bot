@@ -1,0 +1,50 @@
+{
+  "serverName": "Novyra Roleplay",
+  "welcomeChannelId": "YOUR_WELCOME_CHANNEL_ID_HERE",
+  "autoRoleId": "YOUR_AUTO_ROLE_ID_HERE",
+  "autoRoleEnabled": true,
+  
+  "embed": {
+    "color": "#00e5ff",
+    "mainTitle": "👑 WELCOME TO NOVYRA ROLEPLAY 👑",
+    "description": "We are thrilled to have you as part of our growing community. Please take a moment to review our rules and guidelines before starting your roleplay journey.",
+    "footerText": "POWERED BY TEAM NOVYRA",
+    "useLocalGif": true,
+    "localGifPath": "./assets/welcome.gif",
+    "externalGifUrl": ""
+  },
+
+  "sections": {
+    "discordRules": {
+      "enabled": true,
+      "title": "🔍 DISCORD COMMUNITY GUIDELINES",
+      "value": "\u200B\n➤ **Be Respectful:** Treat all members and staff with respect at all times.\n\n➤ **No Toxicity or Hate Speech:** Toxic behavior, discrimination, and drama are strictly prohibited.\n\n➤ **Proper Channels:** Keep discussions, media, and clips in their designated channels.\n\n➤ **No Advertising:** DM advertising or self-promotion without staff permission will lead to an instant ban."
+    }
+  },
+
+  "buttons": {
+    "fivemConnect": {
+      "enabled": false,
+      "label": "Connect to FiveM",
+      "emoji": "🎮",
+      "url": "https://cfx.re/join/xxxxxx"
+    },
+    "discordRules": {
+      "enabled": false,
+      "label": "Server Rules",
+      "emoji": "📜",
+      "url": "https://discord.com/channels/@me"
+    },
+    "supportTicket": {
+      "enabled": false,
+      "label": "Open Ticket",
+      "emoji": "🎫",
+      "url": "https://discord.com/channels/@me"
+    }
+  },
+
+  "dmWelcome": {
+    "enabled": false,
+    "message": "Welcome to **Novyra Roleplay**! Make sure to read the server rules and enjoy your stay!"
+  }
+}

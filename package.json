@@ -1,0 +1,22 @@
+{
+  "name": "novyra-welcome-bot",
+  "version": "1.0.0",
+  "description": "Premium FiveM Welcome Bot for Novyra Roleplay",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node deploy-commands.js"
+  },
+  "keywords": [
+    "fivem",
+    "discord-bot",
+    "welcome-bot",
+    "novyra-roleplay"
+  ],
+  "author": "Team Novyra",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
